@@ -52,7 +52,7 @@ export default function LandingPage() {
       <HeroBillboardGallery
       background={{
         variant: "gradient-bars"}}
-      title="Elevate Every Moment"
+      title="Capture Your Event in 360° Cinematic Glory"
       description="Capture the magic of your event with Luxe Loop. Our premium 360 photo booth delivers cinematic, shareable memories in stunning high definition."
       buttons={[
         {
