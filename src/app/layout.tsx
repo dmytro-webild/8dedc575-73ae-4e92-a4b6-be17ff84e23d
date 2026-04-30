@@ -10,8 +10,8 @@ import { Nunito_Sans } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'LoopLux | Luxury 360 Photo Booth Rental',
-  description: 'Elevate your next event with LoopLux, the premier provider of luxury 360 photo booth rentals. Perfect for weddings, corporate events, and parties.',
+  title: "LuxeLoopp | Luxury 360 Photo Booth Rental",
+  description: "Elevate your next event with LuxeLoopp, the premier provider of luxury 360 photo booth rentals. Perfect for weddings, corporate events, and parties.",
   keywords: ["360 photo booth rental, luxury event photo booth, corporate event photo booth, wedding photo booth, party photo booth near me"],
   openGraph: {
     "title": "LoopLux 360 Experience",
