@@ -46,7 +46,7 @@ export default function LandingPage() {
       ]}
       brandName="Luxe Loop"
       button={{
-        text: "Book Now",        href: "#contact"}}
+        text: "Book Now",        href: "contact"}}
     />
   </div>
 
@@ -58,7 +58,7 @@ export default function LandingPage() {
       description="Capture the magic of your event with Luxe Loop. Our premium 360 photo booth delivers cinematic, shareable memories in stunning high definition."
       buttons={[
         {
-          text: "Book Now",          href: "#contact"},
+          text: "Book Now",          href: "contact"},
       ]}
       mediaItems={[
         {
@@ -130,7 +130,7 @@ export default function LandingPage() {
         {
           id: "essential",          badge: "Essential",          price: "$399",          subtitle: "Perfect for intimate gatherings",          buttons: [
             {
-              text: "Inquire",              href: "#contact"},
+              text: "Inquire",              href: "contact"},
           ],
           features: [
             "3 Hours Coverage",            "Digital Gallery",            "Basic Props"],
@@ -138,7 +138,7 @@ export default function LandingPage() {
         {
           id: "premium",          badge: "Most Popular",          price: "$599 ",          subtitle: "Comprehensive event coverage",          buttons: [
             {
-              text: "Inquire",              href: "#contact"},
+              text: "Inquire",              href: "contact"},
           ],
           features: [
             "5 Hours Coverage",            "Custom Video Branding",            "Dedicated Attendant"],
@@ -147,7 +147,7 @@ export default function LandingPage() {
           id: "luxury",          badge: "Elite Corporate",          badgeIcon: BriefcaseBusiness,
           price: "$799",          subtitle: "The ultimate brand activation",          buttons: [
             {
-              text: "Inquire",              href: "#contact"},
+              text: "Inquire",              href: "contact"},
           ],
           features: [
             "Full Day Coverage",            "Instant Social Sharing",            "Custom Backdrops"],
@@ -229,7 +229,7 @@ export default function LandingPage() {
       leftLink={{
         text: "Privacy Policy",        href: "#"}}
       rightLink={{
-        text: "Contact Us",        href: "#contact"}}
+        text: "Contact Us",        href: "contact"}}
     />
   </div>
       </ReactLenis>
