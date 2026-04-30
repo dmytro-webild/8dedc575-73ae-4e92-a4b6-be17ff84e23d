@@ -13,7 +13,7 @@ import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardTwelve from '@/components/sections/testimonial/TestimonialCardTwelve';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
-import { CalendarDays, Settings2, Share2, Crown } from "lucide-react";
+import { CalendarDays, Settings2, Share2, Crown, BriefcaseBusiness } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -42,7 +42,7 @@ export default function LandingPage() {
         {
           name: "Gallery",          id: "gallery"},
       ]}
-      brandName="LoopLux"
+      brandName="Luxe Loop"
       button={{
         text: "Book Now",        href: "#contact"}}
     />
@@ -53,7 +53,7 @@ export default function LandingPage() {
       background={{
         variant: "gradient-bars"}}
       title="Elevate Every Moment"
-      description="Capture the magic of your event with LoopLux. Our premium 360 photo booth delivers cinematic, shareable memories in stunning high definition."
+      description="Capture the magic of your event with Luxe Loop. Our premium 360 photo booth delivers cinematic, shareable memories in stunning high definition."
       buttons={[
         {
           text: "Book Now",          href: "#contact"},
@@ -75,7 +75,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Redefining Luxury Experiences"
       description={[
-        "LoopLux transforms standard event snapshots into immersive, cinematic 360-degree experiences. We combine state-of-the-art camera technology with elegant design to capture your events from every angle.",        "Our team is dedicated to precision, lighting, and style, ensuring your guests receive high-end keepsakes worthy of sharing on any social platform."]}
+        "Luxe Loop transforms standard event snapshots into immersive, cinematic 360-degree experiences. We combine state-of-the-art camera technology with elegant design to capture your events from every angle.",        "Our team is dedicated to precision, lighting, and style, ensuring your guests receive high-end keepsakes worthy of sharing on any social platform."]}
     />
   </div>
 
@@ -114,7 +114,7 @@ export default function LandingPage() {
           id: "step3",          title: "Capture & Share",          value: "03",          icon: Share2,
         },
       ]}
-      title="The LoopLux Flow"
+      title="The Luxe Loop Flow"
       description="Getting your luxury experience started is simple, seamless, and sophisticated."
     />
   </div>
@@ -142,7 +142,7 @@ export default function LandingPage() {
             "5 Hours Coverage",            "Custom Video Branding",            "Dedicated Attendant"],
         },
         {
-          id: "luxury",          badge: "Elite Corporate",          badgeIcon: Crown,
+          id: "luxury",          badge: "Elite Corporate",          badgeIcon: BriefcaseBusiness,
           price: "$2,499",          subtitle: "The ultimate brand activation",          buttons: [
             {
               text: "Inquire",              href: "#contact"},
@@ -202,7 +202,7 @@ export default function LandingPage() {
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/top-view-camera-lens-chess-game_23-2149552368.jpg"
       title="Common Questions"
-      description="Everything you need to know about booking the LoopLux experience."
+      description="Everything you need to know about booking the Luxe Loop experience."
       faqsAnimation="slide-up"
     />
   </div>
@@ -213,7 +213,7 @@ export default function LandingPage() {
       background={{
         variant: "plain"}}
       tag="Booking"
-      title="Reserve Your LoopLux Moment"
+      title="Reserve Your Luxe Loop Moment"
       description="Ready to bring the experience to your next event? Fill out the details below, and we will contact you within 24 hours."
       imageSrc="http://img.b2bpic.net/free-photo/dj-mixing-equipment-underground-club_482257-78401.jpg"
       mediaPosition="right"
@@ -223,7 +223,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterLogoReveal
-      logoText="LoopLux"
+      logoText="Luxe Loop"
       leftLink={{
         text: "Privacy Policy",        href: "#"}}
       rightLink={{
