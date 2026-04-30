@@ -16,6 +16,13 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { CalendarDays, Settings2, Share2, Crown, BriefcaseBusiness } from "lucide-react";
 
 export default function LandingPage() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <ThemeProvider
         defaultButtonVariant="text-shift"
@@ -46,7 +53,7 @@ export default function LandingPage() {
       ]}
       brandName="Luxe Loop"
       button={{
-        text: "Book Now",        href: "#contact"}}
+        text: "Book Now",        onClick: () => scrollToSection("contact")}}
     />
   </div>
 
@@ -58,7 +65,7 @@ export default function LandingPage() {
       description="Capture the magic of your event with Luxe Loop. Our premium 360 photo booth delivers cinematic, shareable memories in stunning high definition."
       buttons={[
         {
-          text: "Book Now",          href: "#contact"},
+          text: "Book Now",          onClick: () => scrollToSection("contact")},
       ]}
       mediaItems={[
         {
@@ -66,7 +73,7 @@ export default function LandingPage() {
         {
           imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-people-posing-together_23-2150171620.jpg",          imageAlt: "360 photo booth wedding party"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-friends-posing-photo-booth_23-2150191568.jpg",          imageAlt: "modern photo booth setup event"},
+          imageSrc: "http://img.b2bpic.net/medium-shot-friends-posing-photo-booth_23-2150191568.jpg",          imageAlt: "modern photo booth setup event"},
       ]}
       mediaAnimation="slide-up"
     />
@@ -130,7 +137,7 @@ export default function LandingPage() {
         {
           id: "essential",          badge: "Essential",          price: "$399",          subtitle: "Perfect for intimate gatherings",          buttons: [
             {
-              text: "Inquire",              href: "#contact"},
+              text: "Inquire",              onClick: () => scrollToSection("contact")},
           ],
           features: [
             "3 Hours Coverage",            "Digital Gallery",            "Basic Props"],
@@ -138,7 +145,7 @@ export default function LandingPage() {
         {
           id: "premium",          badge: "Most Popular",          price: "$599 ",          subtitle: "Comprehensive event coverage",          buttons: [
             {
-              text: "Inquire",              href: "#contact"},
+              text: "Inquire",              onClick: () => scrollToSection("contact")},
           ],
           features: [
             "5 Hours Coverage",            "Custom Video Branding",            "Dedicated Attendant"],
@@ -147,7 +154,7 @@ export default function LandingPage() {
           id: "luxury",          badge: "Elite Corporate",          badgeIcon: BriefcaseBusiness,
           price: "$799",          subtitle: "The ultimate brand activation",          buttons: [
             {
-              text: "Inquire",              href: "#contact"},
+              text: "Inquire",              onClick: () => scrollToSection("contact")},
           ],
           features: [
             "Full Day Coverage",            "Instant Social Sharing",            "Custom Backdrops"],
@@ -224,9 +231,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="Luxe Loop"
       leftLink={{
-        text: "Privacy Policy",        href: "#"}}
+        text: "Privacy Policy",        onClick: () => {}}}
       rightLink={{
-        text: "Contact Us",        href: "#contact"}}
+        text: "Contact Us",        onClick: () => scrollToSection("contact")}}
     />
   </div>
       </ReactLenis>
