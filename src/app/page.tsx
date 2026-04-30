@@ -68,9 +68,9 @@ export default function LandingPage() {
           text: "Book Now",          onClick: () => scrollToSection("contact")},
       ]}
       mediaItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png", imageAlt: "360 photo booth professional photography" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png", imageAlt: "360 photo booth wedding party" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png", imageAlt: "modern photo booth setup event" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png?_wi=1", imageAlt: "360 photo booth professional photography" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png?_wi=2", imageAlt: "360 photo booth wedding party" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png?_wi=3", imageAlt: "modern photo booth setup event" },
       ]}
       mediaAnimation="slide-up"
     />
