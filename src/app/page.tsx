@@ -91,9 +91,9 @@ export default function LandingPage() {
         {
           title: "Wedding Perfection",          description: "Add an unforgettable layer of glamour to your special day with slow-motion 360 memories.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-hugging-man-clinging-glasses_23-2147972063.jpg",          titleImageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=wn38nd",          buttonText: "See More"},
         {
-          title: "Corporate Impact",          description: "Impress your partners and employees with high-tech brand activations that stand out in every feed.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-selfie-with-all-crew_329181-6258.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/gray-concrete-pillars_181624-1500.jpg",          buttonText: "See More"},
+          title: "Corporate Impact",          description: "Impress your partners and employees with high-tech brand activations that stand out in every feed.",          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-selfie-with-all-crew_329181-6258.jpg",          titleImageSrc: "http://img.b2bpic.net/gray-concrete-pillars_181624-1500.jpg",          buttonText: "See More"},
         {
-          title: "Private Parties",          description: "Turn your celebration into the main event with our stylish booth setup and cinematic video outputs.",          imageSrc: "http://img.b2bpic.net/free-photo/abstract-neon-lights-wonder-wheel_23-2148328071.jpg",          titleImageSrc: "http://img.b2bpic.net/free-photo/close-up-server-farm-worker-troubleshooting-errors-laptop_482257-106219.jpg",          buttonText: "See More"},
+          title: "Private Parties",          description: "Turn your celebration into the main event with our stylish booth setup and cinematic video outputs.",          imageSrc: "http://img.b2bpic.net/free-photo/abstract-neon-lights-wonder-wheel_23-2148328071.jpg",          titleImageSrc: "http://img.b2bpic.net/close-up-server-farm-worker-troubleshooting-errors-laptop_482257-106219.jpg",          buttonText: "See More"},
       ]}
       title="Tailored 360 Experiences"
       description="From glamorous weddings to high-stakes corporate galas, we deliver bespoke solutions tailored to the vibe of your event."
@@ -214,6 +214,8 @@ export default function LandingPage() {
       tag="Booking"
       title="Book Your Experience"
       description="Enter your phone number and preferred date to schedule your event session."
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
       onSubmit={(email) => console.log("Form submitted: ", email)}
     />
   </div>
