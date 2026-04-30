@@ -68,12 +68,9 @@ export default function LandingPage() {
           text: "Book Now",          onClick: () => scrollToSection("contact")},
       ]}
       mediaItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-taking-photos-handsome-man_23-2148532556.jpg",          imageAlt: "360 photo booth professional photography"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-people-posing-together_23-2150171620.jpg",          imageAlt: "360 photo booth wedding party"},
-        {
-          imageSrc: "http://img.b2bpic.net/medium-shot-friends-posing-photo-booth_23-2150191568.jpg",          imageAlt: "modern photo booth setup event"},
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png", imageAlt: "360 photo booth professional photography" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png", imageAlt: "360 photo booth wedding party" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D2jAO15EVAVFgUdpK12YY0qg5F/uploaded-1777561455063-82fj9ghd.png", imageAlt: "modern photo booth setup event" },
       ]}
       mediaAnimation="slide-up"
     />
