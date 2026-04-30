@@ -41,6 +41,8 @@ export default function LandingPage() {
           name: "Packages",          id: "pricing"},
         {
           name: "Gallery",          id: "gallery"},
+        {
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Luxe Loop"
       button={{
