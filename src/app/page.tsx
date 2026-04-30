@@ -126,7 +126,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "essential",          badge: "Essential",          price: "$899",          subtitle: "Perfect for intimate gatherings",          buttons: [
+          id: "essential",          badge: "Essential",          price: "$399",          subtitle: "Perfect for intimate gatherings",          buttons: [
             {
               text: "Inquire",              href: "#contact"},
           ],
@@ -134,7 +134,7 @@ export default function LandingPage() {
             "3 Hours Coverage",            "Digital Gallery",            "Basic Props"],
         },
         {
-          id: "premium",          badge: "Most Popular",          price: "$1,499",          subtitle: "Comprehensive event coverage",          buttons: [
+          id: "premium",          badge: "Most Popular",          price: "$599 ",          subtitle: "Comprehensive event coverage",          buttons: [
             {
               text: "Inquire",              href: "#contact"},
           ],
@@ -143,7 +143,7 @@ export default function LandingPage() {
         },
         {
           id: "luxury",          badge: "Elite Corporate",          badgeIcon: BriefcaseBusiness,
-          price: "$2,499",          subtitle: "The ultimate brand activation",          buttons: [
+          price: "$799",          subtitle: "The ultimate brand activation",          buttons: [
             {
               text: "Inquire",              href: "#contact"},
           ],
